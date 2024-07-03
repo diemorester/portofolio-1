@@ -2,7 +2,7 @@ import Menu from "./menu";
 
 function Navbar() {
     return (
-        <div className="flex bg-stone-50 h-14 justify-center gap-8 items-center font-sans sticky top-0">
+        <div className="flex bg-stone-50 h-14 justify-center gap-8 items-center font-sans sticky top-0 text-lg">
             <a href="#home">
                 <Menu>Home</Menu>
             </a>
@@ -12,8 +12,12 @@ function Navbar() {
             <a href="#skills">
                 <Menu>Skills</Menu>
             </a>
-            <Menu>Educations</Menu>
-            <Menu>Experiences</Menu>
+            <a href="#experiences">
+                <Menu>Experiences</Menu>
+            </a>
+            <a href="#educations">
+               <Menu>Services</Menu>
+            </a>
         </div>
     )
 }
